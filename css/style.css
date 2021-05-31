@@ -1,8 +1,7 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic+Coding&family=Share+Tech+Mono&display=swap');
 
-/* CSS Document */
 * {
-  font-family: inherit;
   margin: 0 auto;
   padding: 0;
   list-style: none;
@@ -13,6 +12,7 @@ a {
 }
 
 html, body {
+  font-family: 'Share Tech Mono', 'Nanum Gothic Coding', monospace;
   width: 100%;
   height: auto;
   overflow-x: hidden;
@@ -350,12 +350,14 @@ margin: 0 auto;
 }
 
 /*컨텐츠*/
-section > h3{
+section>h3 {
   display: none;
 }
+
 .contents {
   position: relative;
 }
+
 /*HOME*/
 .contents.s1 {
   width: 100vw;
@@ -480,16 +482,6 @@ section > h3{
   }
 }
 
-/*
-p {
-  margin-top: 50px;
-  font-family: "Cabin", sans-serif;
-  letter-spacing: 12px;
-  text-indent: 12px;
-  color: #ffffff;
-  -webkit-animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite;
-          animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite;
-} */
 /*CONTENTS ABOUT ME*/
 .contents.s2 {
   position: relative;
@@ -497,13 +489,17 @@ p {
   min-height: 100vh;
   background: #333;
   height: 100vh;
+  font-family: 'Share Tech Mono', monospace;
 }
-.article_title >h3{
-  display:none;
-}
-.contents.s2 .article_title {
+
+.article_title>h3 {
   display: none;
+}
+
+.contents.s2 .article_title {
+  color: #fff;
   transition: all 1s;
+  text-align: center;
 }
 
 .contents.s2 .about_text {
@@ -523,7 +519,7 @@ p {
   height: inherit;
 }
 
-.about_text h1:hover {
+.about_text p:hover {
   cursor: pointer;
   color: #5F4B8B;
 }
@@ -597,7 +593,7 @@ p {
   height: 100%;
   background: #666;
   z-index: 20;
-  /* margin-left: 100%; */
+  margin-left: 100%;
   transition: margin 3s;
 }
 
@@ -616,21 +612,15 @@ p {
   font-size: 20px;
 }
 
-.inner_left .text>p {
-  margin-top: 15px;
-  font-size: 24px;
-  color: #49396a;
-}
-
 .inner_left .last {
   margin-top: 0px;
   text-align: right;
 }
 
-h1.name {
+p.name {
+  font-family: 'Black Han Sans', sans-serif;
   font-size: 60px;
-  margin: 0;
-  font-weight: 800;
+  margin-top: 20px;
   color: #5f4b8b;
   text-align: center;
 }
@@ -659,6 +649,7 @@ h1.name {
 }
 
 .introduction {
+  font-family: 'Nanum Gothic Coding';
   color: #2d2442;
   font-size: 18px;
   line-height: 30px;
@@ -681,14 +672,6 @@ h1.name {
   width: 50%;
   float: left;
   color: #666;
-}
-
-.education {
-  /* width:40%; */
-}
-
-.experience {
-  /* width:60%; */
 }
 
 .timeline-title {
@@ -785,6 +768,7 @@ li.timeline-event:hover .timeline-event-date {
 }
 
 .timeline-event-content {
+  font-family: 'Nanum Gothic Coding', 'Share Tech Mono';
   line-height: 160%;
   text-align: left;
   margin-left: 20px;
