@@ -104,7 +104,7 @@ window.addEventListener('load', function() {
       scrollTop: scrollPosition
     }, 800);
   });
-
+  //article_title
   var article_title = document.querySelector('.s2 .article_title');
   var about_text = document.querySelector('.about_text');
   var article_contents = document.querySelector('.s2 .article_contents');
