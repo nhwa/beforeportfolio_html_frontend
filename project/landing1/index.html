@@ -1,444 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>starnmoon</title>
-<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
-<link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" type="text/css" />
-<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css"/>
-<link rel="stylesheet" type="text/css" href="./css/slider-pro.min.css" media="screen" />
-<link href="css/style.css" rel="stylesheet" type="text/css">
 
-<script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="./js/jquery.sliderPro.min.js"></script>
-   <script type="text/javascript">
-	$( document ).ready(function( $ ) {
-		$( '#slide,#slide2,#slide3' ).sliderPro({
-			width: 900,
-			height:670,
-			orientation: 'vertical',
-			loop: false,
-			arrows: true,
-			buttons: false,
-			thumbnailsPosition: 'right',
-			thumbnailPointer: true,
-			thumbnailWidth: 290,
-			breakpoints: {
-				800: {
-					thumbnailsPosition: 'bottom',
-					thumbnailWidth: 270,
-					thumbnailHeight: 100
-				},
-				500: {
-					thumbnailsPosition: 'bottom',
-					thumbnailWidth: 120,
-					thumbnailHeight: 50
-				}
-			}
-		});
-	});
-</script>
+<head>
+  <meta charset="UTF-8">
+  <title>starnmoon</title>
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" type="text/css" />
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="./css/slider-pro.min.css" media="screen" />
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+
+  <script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.sliderPro.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function($) {
+      $('#slide,#slide2,#slide3').sliderPro({
+        width: 900,
+        height: 670,
+        orientation: 'vertical',
+        loop: false,
+        arrows: true,
+        buttons: false,
+        thumbnailsPosition: 'right',
+        thumbnailPointer: true,
+        thumbnailWidth: 290,
+        breakpoints: {
+          800: {
+            thumbnailsPosition: 'bottom',
+            thumbnailWidth: 270,
+            thumbnailHeight: 100
+          },
+          500: {
+            thumbnailsPosition: 'bottom',
+            thumbnailWidth: 120,
+            thumbnailHeight: 50
+          }
+        }
+      });
+    });
+  </script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
   <!--모달 시작-->
-   
-    <nav class="nav__wrapper" id="navbar-example">  
-        <ul class="nav">
-        <li role="presentation" class="active">
-          <a href="#section1">
-            <span class="nav__counter">01</span>
-            <h3 class="nav__title">STAR & MOON</h3>
-            <p class="nav__body"><strong>They are so cute.<br>click them!</strong></p>
-          </a>
-        </li>
 
-        <li role="presentation">
-          <a href="#section2">
-            <span class="nav__counter">02</span>
-            <h3 class="nav__title">MEMORY</h3>
-            <p class="nav__body"><strong>Look at the cute cats.<br>What a cute!</strong>
-            </p>
-          </a>
-        </li>
+  <nav class="nav__wrapper" id="navbar-example">
+    <ul class="nav">
+      <li role="presentation" class="active">
+        <a href="#section1">
+          <span class="nav__counter">01</span>
+          <h3 class="nav__title">STAR & MOON</h3>
+          <p class="nav__body"><strong>They are so cute.<br>click them!</strong></p>
+        </a>
+      </li>
 
-        <li role="presentation">
-          <a href="#section3">
-            <span class="nav__counter">03</span>
-            <h3 class="nav__title">STAR</h3>
-            <p class="nav__body"><strong>He is loud and troublemaker<br>but lovely.</strong></p>
-          </a>
-        </li>
+      <li role="presentation">
+        <a href="#section2">
+          <span class="nav__counter">02</span>
+          <h3 class="nav__title">MEMORY</h3>
+          <p class="nav__body"><strong>Look at the cute cats.<br>What a cute!</strong>
+          </p>
+        </a>
+      </li>
 
-        <li role="presentation">
-          <a href="#section4">
-            <span class="nav__counter">04</span>
-             <h3 class="nav__title">MOON</h3>
-            <p class="nav__body"><strong>He is calm and decent<br>but bedwetter.</strong></p>
-          </a>
-        </li>
-        
-        <li role="presentation">
-          <a href="#section5">
-            <span class="nav__counter">05</span>
-            <h3 class="nav__title">Youtube</h3>
-            <p class="nav__body"><strong>Funny Video</strong></p>
-          </a>
-        </li>
-      </ul>
-    </nav>
-     
+      <li role="presentation">
+        <a href="#section3">
+          <span class="nav__counter">03</span>
+          <h3 class="nav__title">STAR</h3>
+          <p class="nav__body"><strong>He is loud and troublemaker<br>but lovely.</strong></p>
+        </a>
+      </li>
 
-     <section class="section section1" id="section1">
-          <article>
-           <div id="main_title">
-           <a href="#section2">
-            <img id="main_img" src="./imgs/star.png" 
-                 alt="starnmoon"/></a>
-                   <div id="wrap_app">
-                       <div id="app"></div>
-                   </div>
-                      <div id="speech_bubble">
-                  <div class="speech_bubble_text">
-                  Click Me!</div>
-                   </div>
-                </div>
-        </article>
-     </section>
+      <li role="presentation">
+        <a href="#section4">
+          <span class="nav__counter">04</span>
+          <h3 class="nav__title">MOON</h3>
+          <p class="nav__body"><strong>He is calm and decent<br>but bedwetter.</strong></p>
+        </a>
+      </li>
 
-    <section>
+      <li role="presentation">
+        <a href="#section5">
+          <span class="nav__counter">05</span>
+          <h3 class="nav__title">Youtube</h3>
+          <p class="nav__body"><strong>Funny Video</strong></p>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <section class="section section1" id="section1">
+    <article>
+      <div id="main_title">
+        <a href="#section2">
+          <img id="main_img" src="./imgs/star.png" alt="starnmoon" /></a>
+        <div id="wrap_app">
+          <div id="app"></div>
+        </div>
+        <div id="speech_bubble">
+          <div class="speech_bubble_text">
+            Click Me!</div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section>
     <div class="section section2" id="section2">
-    <div class="clear"></div>
-	<article>
-	<div id="slide" class="slider-pro">
-		<div class="sp-slides">
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/together/1.jpg"
-					data-src="./imgs/together/1.jpg"
-					data-retina="./imgs/together/1.jpg" alt="together_img1"/>
-			</div>
-
-	        <div class="sp-slide">
-	        	<img class="sp-image" src="./imgs/together/2.jpg"
-	        		data-src="./imgs/together/2.jpg"
-	        		data-retina="./imgs/together/2.jpg" alt="together_img2"/>
-
-			</div>
-
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/together/3.jpg"
-	        		data-src="./imgs/together/3.jpg"
-	        		data-retina="./imgs/together/3.jpg" alt="together_img3"/>
-			</div>
-
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/together/4.jpg"
-	        		data-src="./imgs/together/4.jpg"
-	        		data-retina="./imgs/together/4.jpg" alt="together_img4"/>
-			</div>
-
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/together/5.jpg"
-	        		data-src="./imgs/together/5.jpg"
-	        		data-retina="./imgs/together/5.jpg" alt="together_img5" />
-			</div>
-
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/together/6.jpg"
-	        		data-src="./imgs/together/6.jpg"
-	        		data-retina="./imgs/together/6.jpg" alt="together_img6"/>
-			</div>
-
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/together/7.jpg"
-	        		data-src="./imgs/together/7.jpg"
-	        		data-retina="./imgs/together/7.jpg" alt="together_img7"/>
-			</div>
-			
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/together/8.jpg"
-	        		data-src="./imgs/together/8.jpg"
-	        		data-retina="./imgs/together/8.jpg" alt="together_img8"/>
-			</div>
-        </div>
-
-
-		<div class="sp-thumbnails">
-		
-			<div class="sp-thumbnail">
-				<div class="sp-thumbnail-image-container">
-					<img class="sp-thumbnail-image" src="./imgs/together/1.jpg" alt="together_img1"/>
-				</div>
-			</div>
-
-			<div class="sp-thumbnail">
-				<div class="sp-thumbnail-image-container">
-					<img class="sp-thumbnail-image" src="./imgs/together/2.jpg" alt="together_img2"/>
-				
-			</div></div>
-
-			<div class="sp-thumbnail">
-				<div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/together/3.jpg" alt="together_img3"/>
-			</div></div>
-
-			<div class="sp-thumbnail">
-			<div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/together/4.jpg" alt="together_img4"/>
-			</div></div>
-
-			<div class="sp-thumbnail"><div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/together/5.jpg" alt="together_img5"/>
-			</div></div>
-
-			<div class="sp-thumbnail"><div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/together/6.jpg" alt="together_img6"/>
-			</div></div>
-
-			<div class="sp-thumbnail"><div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/together/7.jpg" alt="together_img7"/>
-                </div></div>
-
-			<div class="sp-thumbnail">
-			<div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/together/8.jpg" alt="together_img8"/>
-			</div>
-
-		</div>
-        </div></div>
-    </article>
-        </div>
-    </section>
-
-    <section>
-     <div class="section section3" id="section3">
       <div class="clear"></div>
-     <article>
-     <div id="slide2" class="slider-pro">
-		<div class="sp-slides">
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/star/1.jpg"
-					data-src="./imgs/star/1.jpg"
-					data-retina="./imgs/star/1.jpg" alt="star_img1"/>
-			</div>
+      <article>
+        <div id="slide" class="slider-pro">
+          <div class="sp-slides">
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/together/1.jpg" data-src="./imgs/together/1.jpg" data-retina="./imgs/together/1.jpg" alt="together_img1" />
+            </div>
 
-	        <div class="sp-slide">
-	        	<img class="sp-image" src="./imgs/star/2.jpg"
-					data-src="./imgs/star/2.jpg"
-					data-retina="./imgs/star/2.jpg" alt="star_img2"/>
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/together/2.jpg" data-src="./imgs/together/2.jpg" data-retina="./imgs/together/2.jpg" alt="together_img2" />
 
-			</div>
+            </div>
 
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/star/3.jpg"
-					data-src="./imgs/star/3.jpg"
-					data-retina="./imgs/star/3.jpg" alt="star_img3"/>
-			</div>
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/together/3.jpg" data-src="./imgs/together/3.jpg" data-retina="./imgs/together/3.jpg" alt="together_img3" />
+            </div>
 
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/star/4.jpg"
-					data-src="./imgs/star/4.jpg"
-					data-retina="./imgs/star/4.jpg" alt="star_img4"/>
-			</div>
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/together/4.jpg" data-src="./imgs/together/4.jpg" data-retina="./imgs/together/4.jpg" alt="together_img4" />
+            </div>
 
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/star/5.jpg"
-					data-src="./imgs/star/5.jpg"
-					data-retina="./imgs/star/5.jpg" alt="star_img5"/>
-			</div>
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/together/5.jpg" data-src="./imgs/together/5.jpg" data-retina="./imgs/together/5.jpg" alt="together_img5" />
+            </div>
 
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/star/6.jpg"
-					data-src="./imgs/star/6.jpg"
-					data-retina="./imgs/star/6.jpg" alt="star_img6"/>
-			</div>
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/together/6.jpg" data-src="./imgs/together/6.jpg" data-retina="./imgs/together/6.jpg" alt="together_img6" />
+            </div>
 
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/star/7.jpg"
-					data-src="./imgs/star/7.jpg"
-					data-retina="./imgs/star/7.jpg" alt="star_img7"/>
-			</div>
-			
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/star/8.jpg"
-					data-src="./imgs/star/8.jpg"
-					data-retina="./imgs/star/8.jpg" alt="star_img8"/>
-			</div>
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/together/7.jpg" data-src="./imgs/together/7.jpg" data-retina="./imgs/together/7.jpg" alt="together_img7" />
+            </div>
+
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/together/8.jpg" data-src="./imgs/together/8.jpg" data-retina="./imgs/together/8.jpg" alt="together_img8" />
+            </div>
+          </div>
+
+
+          <div class="sp-thumbnails">
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/together/1.jpg" alt="together_img1" />
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/together/2.jpg" alt="together_img2" />
+
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/together/3.jpg" alt="together_img3" />
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/together/4.jpg" alt="together_img4" />
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/together/5.jpg" alt="together_img5" />
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/together/6.jpg" alt="together_img6" />
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/together/7.jpg" alt="together_img7" />
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/together/8.jpg" alt="together_img8" />
+              </div>
+
+            </div>
+          </div>
         </div>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <div class="section section3" id="section3">
+      <div class="clear"></div>
+      <article>
+        <div id="slide2" class="slider-pro">
+          <div class="sp-slides">
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/star/1.jpg" data-src="./imgs/star/1.jpg" data-retina="./imgs/star/1.jpg" alt="star_img1" />
+            </div>
+
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/star/2.jpg" data-src="./imgs/star/2.jpg" data-retina="./imgs/star/2.jpg" alt="star_img2" />
+
+            </div>
+
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/star/3.jpg" data-src="./imgs/star/3.jpg" data-retina="./imgs/star/3.jpg" alt="star_img3" />
+            </div>
+
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/star/4.jpg" data-src="./imgs/star/4.jpg" data-retina="./imgs/star/4.jpg" alt="star_img4" />
+            </div>
+
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/star/5.jpg" data-src="./imgs/star/5.jpg" data-retina="./imgs/star/5.jpg" alt="star_img5" />
+            </div>
+
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/star/6.jpg" data-src="./imgs/star/6.jpg" data-retina="./imgs/star/6.jpg" alt="star_img6" />
+            </div>
+
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/star/7.jpg" data-src="./imgs/star/7.jpg" data-retina="./imgs/star/7.jpg" alt="star_img7" />
+            </div>
+
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/star/8.jpg" data-src="./imgs/star/8.jpg" data-retina="./imgs/star/8.jpg" alt="star_img8" />
+            </div>
+          </div>
 
 
-		<div class="sp-thumbnails">
-		
-			<div class="sp-thumbnail">
-				<div class="sp-thumbnail-image-container">
-					<img class="sp-thumbnail-image" src="./imgs/star/1.jpg" alt="star_img1"/>
-				</div>
-			</div>
+          <div class="sp-thumbnails">
 
-			<div class="sp-thumbnail">
-				<div class="sp-thumbnail-image-container">
-					<img class="sp-thumbnail-image" src="./imgs/star/2.jpg" alt="star_img2"/>
-			</div></div>
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/star/1.jpg" alt="star_img1" />
+              </div>
+            </div>
 
-			<div class="sp-thumbnail">
-				<div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/star/3.jpg" alt="star_img3"/>
-			</div></div>
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/star/2.jpg" alt="star_img2" />
+              </div>
+            </div>
 
-			<div class="sp-thumbnail">
-			<div class="sp-thumbnail-image-container">
-			<img class="sp-thumbnail-image" src="./imgs/star/4.jpg" alt="star_img4"/>
-			</div></div>
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/star/3.jpg" alt="star_img3" />
+              </div>
+            </div>
 
-			<div class="sp-thumbnail"><div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/star/5.jpg" alt="star_img5"/>
-			</div></div>
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/star/4.jpg" alt="star_img4" />
+              </div>
+            </div>
 
-			<div class="sp-thumbnail"><div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/star/6.jpg" alt="star_img6"/>
-			</div></div>
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/star/5.jpg" alt="star_img5" />
+              </div>
+            </div>
 
-			<div class="sp-thumbnail"><div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/star/7.jpg" alt="star_img7"/>
-                </div></div>
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/star/6.jpg" alt="star_img6" />
+              </div>
+            </div>
 
-			<div class="sp-thumbnail">
-			<div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/star/8.jpg" alt="star_img8"/>
-			</div>
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/star/7.jpg" alt="star_img7" />
+              </div>
+            </div>
 
-		</div>
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/star/8.jpg" alt="star_img8" />
+              </div>
+
+            </div>
+          </div>
         </div>
-         </div>
-         </article></div>
-    </section>
+      </article>
+    </div>
+  </section>
 
-    <section>
+  <section>
     <div class="section section4" id="section4">
-    <div class="clear"></div>
-  <article>
-  <div id="slide3" class="slider-pro">
-		<div class="sp-slides">
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/moon/1.jpg"
-					data-src="./imgs/moon/1.jpg"
-					data-retina="./imgs/moon/1.jpg" alt="moon_img1"/>
-			</div>
+      <div class="clear"></div>
+      <article>
+        <div id="slide3" class="slider-pro">
+          <div class="sp-slides">
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/moon/1.jpg" data-src="./imgs/moon/1.jpg" data-retina="./imgs/moon/1.jpg" alt="moon_img1" />
+            </div>
 
-	        <div class="sp-slide">
-	        	<img class="sp-image" src="./imgs/moon/2.jpg"
-	        		data-src="./imgs/moon/2.jpg"
-	        		data-retina="./imgs/moon/2.jpg" alt="moon_img2"/>
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/moon/2.jpg" data-src="./imgs/moon/2.jpg" data-retina="./imgs/moon/2.jpg" alt="moon_img2" />
 
-			</div>
+            </div>
 
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/moon/3.jpg"
-	        		data-src="./imgs/moon/3.jpg"
-	        		data-retina="./imgs/moon/3.jpg" alt="moon_img3"/>
-			</div>
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/moon/3.jpg" data-src="./imgs/moon/3.jpg" data-retina="./imgs/moon/3.jpg" alt="moon_img3" />
+            </div>
 
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/moon/4.jpg"
-	        		data-src="./imgs/moon/4.jpg"
-	        		data-retina="./imgs/moon/4.jpg" alt="moon_img4"/>
-			</div>
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/moon/4.jpg" data-src="./imgs/moon/4.jpg" data-retina="./imgs/moon/4.jpg" alt="moon_img4" />
+            </div>
 
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/moon/5.jpg"
-	        		data-src="./imgs/moon/5.jpg"
-	        		data-retina="./imgs/moon/5.jpg" alt="moon_img5"/>
-			</div>
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/moon/5.jpg" data-src="./imgs/moon/5.jpg" data-retina="./imgs/moon/5.jpg" alt="moon_img5" />
+            </div>
 
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/moon/6.jpg"
-	        		data-src="./imgs/moon/6.jpg"
-	        		data-retina="./imgs/moon/6.jpg" alt="moon_img6"/>
-			</div>
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/moon/6.jpg" data-src="./imgs/moon/6.jpg" data-retina="./imgs/moon/6.jpg" alt="moon_img6" />
+            </div>
 
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/moon/7.jpg"
-	        		data-src="./imgs/moon/7.jpg"
-	        		data-retina="./imgs/moon/7.jpg" alt="moon_img7"/>
-			</div>
-			
-			<div class="sp-slide">
-				<img class="sp-image" src="./imgs/moon/8.jpg"
-	        		data-src="./imgs/moon/8.jpg"
-	        		data-retina="./imgs/moon/8.jpg" alt="moon_img8"/>
-			</div>
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/moon/7.jpg" data-src="./imgs/moon/7.jpg" data-retina="./imgs/moon/7.jpg" alt="moon_img7" />
+            </div>
+
+            <div class="sp-slide">
+              <img class="sp-image" src="./imgs/moon/8.jpg" data-src="./imgs/moon/8.jpg" data-retina="./imgs/moon/8.jpg" alt="moon_img8" />
+            </div>
+          </div>
+
+
+          <div class="sp-thumbnails">
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/moon/1.jpg" alt="moon_img1" />
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/moon/2.jpg" alt="moon_img2" />
+
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/moon/3.jpg" alt="moon_img3" />
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/moon/4.jpg" alt="moon_img4" />
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/moon/5.jpg" alt="moon_img5" />
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/moon/6.jpg" alt="moon_img6" />
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/moon/7.jpg" alt="moon_img7" />
+              </div>
+            </div>
+
+            <div class="sp-thumbnail">
+              <div class="sp-thumbnail-image-container">
+                <img class="sp-thumbnail-image" src="./imgs/moon/8.jpg" alt="moon_img8" />
+              </div>
+
+            </div>
+          </div>
         </div>
+      </article>
+    </div>
+  </section>
 
-
-		<div class="sp-thumbnails">
-		
-			<div class="sp-thumbnail">
-				<div class="sp-thumbnail-image-container">
-					<img class="sp-thumbnail-image" src="./imgs/moon/1.jpg" alt="moon_img1"/>
-				</div>
-			</div>
-
-			<div class="sp-thumbnail">
-				<div class="sp-thumbnail-image-container">
-					<img class="sp-thumbnail-image" src="./imgs/moon/2.jpg" alt="moon_img2"/>
-				
-			</div></div>
-
-			<div class="sp-thumbnail">
-				<div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/moon/3.jpg" alt="moon_img3"/>
-			</div></div>
-
-			<div class="sp-thumbnail">
-			<div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/moon/4.jpg" alt="moon_img4"/>
-			</div></div>
-
-			<div class="sp-thumbnail"><div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/moon/5.jpg" alt="moon_img5"/>
-			</div></div>
-
-			<div class="sp-thumbnail"><div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/moon/6.jpg" alt="moon_img6"/>
-			</div></div>
-
-			<div class="sp-thumbnail"><div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/moon/7.jpg" alt="moon_img7"/>
-                </div></div>
-
-			<div class="sp-thumbnail">
-			<div class="sp-thumbnail-image-container">
-				<img class="sp-thumbnail-image" src="./imgs/moon/8.jpg" alt="moon_img8"/>
-			</div>
-
-		</div>
-      </div></div>
-        </article></div>
-    </section>
-
-    <section>
+  <section>
     <article>
-    <div class="section section5" id="section5">
-     <div class="youtube">
-      <iframe src="https://youtube.com/embed/SZcWqrCPZ3c" ></iframe>
-        </div></div></article>
-    </section>
-    
-    <section>
-    <article>
-    <div class="section section6" id="section6">
-     <div class="webtoon">
-        <a href="http://comic.naver.com/webtoon/detail.nhn?titleId=651673&no=1&weekday=wed">
-         <div class="webtoon_wrap1"><h2>YUMI'S CELLS</h2></div></a>
-         <a href="http://comic.naver.com/webtoon/detail.nhn?titleId=616239&no=1&weekday=tue">
-        <div class="webtoon_wrap2"><h2>WILL YOU MARRY ME</h2></div></a>
-       <img class="webtoon_1" src="imgs/webtoon/yumi.jpg" alt="yumi"/>
-       <img class="webtoon_2" src="imgs/webtoon/will.jpg" alt="will"/>
+      <div class="section section5" id="section5">
+        <div class="youtube">
+          <iframe src="https://youtube.com/embed/SZcWqrCPZ3c"></iframe>
         </div>
-       </div>
+      </div>
     </article>
-    </section>
-    
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="./js/script.js" type="text/javascript"></script>
-    </body></html>
+  </section>
+
+  <section>
+    <article>
+      <div class="section section6" id="section6">
+        <div class="webtoon">
+          <a href="http://comic.naver.com/webtoon/detail.nhn?titleId=651673&no=1&weekday=wed">
+            <div class="webtoon_wrap1">
+              <h2>YUMI'S CELLS</h2>
+            </div>
+          </a>
+          <a href="http://comic.naver.com/webtoon/detail.nhn?titleId=616239&no=1&weekday=tue">
+            <div class="webtoon_wrap2">
+              <h2>WILL YOU MARRY ME</h2>
+            </div>
+          </a>
+          <img class="webtoon_1" src="imgs/webtoon/yumi.jpg" alt="yumi" />
+          <img class="webtoon_2" src="imgs/webtoon/will.jpg" alt="will" />
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="./js/script.js" type="text/javascript"></script>
+</body>
+
+</html>

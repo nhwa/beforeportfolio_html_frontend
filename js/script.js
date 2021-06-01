@@ -1,4 +1,4 @@
-history.scrollRestoration = "manual"
+history.scrollRestoration = "manual";
 
 window.addEventListener('load', function() {
   //로딩 애니메이션
